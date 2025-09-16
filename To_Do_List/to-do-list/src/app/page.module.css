@@ -107,6 +107,13 @@ a.secondary {
   flex-shrink: 0;
 }
 
+.container {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -165,3 +172,5 @@ a.secondary {
     filter: invert();
   }
 }
+
+
