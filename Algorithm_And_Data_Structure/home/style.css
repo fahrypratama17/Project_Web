@@ -59,3 +59,7 @@ a:hover::after {
     width: 100%;
     left: 0;
 }
+
+.judul {
+    text-align: center;
+}
